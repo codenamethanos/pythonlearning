@@ -41,3 +41,10 @@ for item in numbers:
     for x in range(item):
         star = star + '*'
     print(star)
+
+list = [1, 2, 3, 4, 15, 6, 7, 8, 9]
+max = list[0]
+for item in list:
+    if item >= max:
+        max = item
+print(max) 
