@@ -27,6 +27,17 @@ else:
 
 for item in "Python":
     print(item)
-    
+
+for item in ["Nifal", "Hareb"]:
+    print(item)
+
 for item in range(5, 10, 2):
     print(item)
+
+
+numbers = [5, 2, 5, 2, 2]
+for item in numbers:
+    star = ''
+    for x in range(item):
+        star = star + '*'
+    print(star)
