@@ -8,3 +8,25 @@ elif is_cold:
     print("Wear warm clothes")
 else:
     print("It's a lovely day")
+
+
+has_good_credit = True
+has_criminal_record = False
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for loan")
+else:
+    print("Not eligible for loan")
+
+i = 1
+while i<=5:
+    print('*' * i)
+    i = i + 1
+else:
+    print("Done")
+
+for item in "Python":
+    print(item)
+    
+for item in range(5, 10, 2):
+    print(item)
