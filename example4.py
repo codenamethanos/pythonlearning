@@ -17,3 +17,4 @@ point2.x = 15
 point2.y = 25
 print(point2.x)
 point2.draw()
+
