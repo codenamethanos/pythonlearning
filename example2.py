@@ -42,6 +42,7 @@ for item in numbers:
         star = star + '*'
     print(star)
 
+# Dont use "max" as a name as its name of a built in function.
 list = [1, 2, 3, 4, 15, 6, 7, 8, 9]
 max = list[0]
 for item in list:
